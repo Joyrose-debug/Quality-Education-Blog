@@ -1,0 +1,460 @@
+/*JOYROSE CSS BEGINS*/
+/* Custom styles for navigation and page layout */
+.JRO-cyan {
+    background-color: cyan; /* Cyan background for the navigation bar */
+}
+
+.nav-link {
+    color: black; /* Blue text color for links */
+    font-weight: bold; /* Bold font for links */
+    padding: 8px 16px; /* Spacing for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+    color: white; /* Change link color to black on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Add spacing for rows and align content */
+.row {
+    margin-top: 20px;
+}
+
+/* Style for the image */
+#imgSwap {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+	width:50vw;
+	height: 50vw;
+	border-radius: 40%;
+	object-fit: cover;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.JRO-H1 {
+    color: darkblue;
+    font-family: 'Georgia', serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-align:right;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+	word-spacing: 5px;
+}
+#JRO-teacher{
+	width: 35vw;
+	height:70vh;
+	border-radius: 50%;
+}
+#JR0-h4{
+	background-color: pink;
+	
+}
+#JR0-h5{
+	background-color: pink;
+	padding:2px;
+	margin:none;
+}
+#JR0-body1{
+	background-color: #ccddff;
+	padding: 2px;
+	margin:none;
+}
+#JR0-body2{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#JR0-body3{
+	padding: 20px;
+	background-color:#d9d9d9;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#JR0-h3{
+	padding:20px;
+	background-color:#f8f9fa;
+	border:10px solid #ddd;
+	text-align:center;
+}
+	
+/* General Form Styles */
+form {
+    background-color: #f8f9fa; /* Light gray background for form */
+    padding: 20px; /* Adds padding inside the form */
+    border-radius: 8px; /*Adds Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+    margin-top: 20px; /* Add space above the form */
+}
+
+/* Styling for Labels */
+form label {
+    font-weight: bold; /* Make the labels bold */
+}
+
+/* Input and Textarea Styling */
+form .form-JR0 {
+    border: 3px solid #ced4da; /* Border color for inputs */
+    border-radius: 10px; /* Rounded corners for inputs */
+}
+
+/* Submit Button Styling */
+form .button{
+    background-color: #007bff; /* Primary blue background */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Add padding to the button */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover Effect for Button */
+form .button:hover {
+    background-color:white; /* the color white  on hover */
+}
+
+/* Feedback Styling */
+#feedback {
+    font-size: 16px; /* Feedback message font size */
+    margin-top: 10px; /* Add space above feedback */
+}
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section headings */
+section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+/* Button styling */
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;/*changes the cursor to pointer*/
+}
+
+
+/* List styling */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive iframe for videos */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.task-button {
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.task-button:hover {
+    background: #005a99;
+}
+
+/* Paragraphs */
+.task-paragraph {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Hidden Content */
+.hidden-content {
+    padding: 10px;
+    background: #eef5ff;
+    border-left: 5px solid #007acc;
+    display: none; /* Initially hidden */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007acc;
+    color: white;
+}
+/*JOYROSE CSS ENDS*/
+/*Chiboys CSS BEGINS*/
+.nav { /* targets all the nav elements*/
+	justify-content: center; /* centers the nav bar */
+}
+
+.nav-link{
+	 color: white;
+ }
+ /* overides the nav-link normal black text color to white */
+ /* @ reference https://www.youtube.com/watch?v=z4Ygm6EFaQ8 (minute 1:34)*/
+ 
+ .first-heading{
+	 color: white; /* targets the heading tag and makes the text white*/
+ }
+ 
+ /*this css targets the gallery*/
+.column{
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}	
+.column img{
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap; /* makes the items wrap onto multiple lines*/
+  gap: 10px;
+}
+
+@media (max-width: 768px){ /* this tag is for targeting devices with screens up to a certain maximum width (768px is the screen size of an ipad)*/
+.column{
+	display: flex;
+	flex-direction: column; /* specifies the direction of the items, column is top to bottom*/
+	gap: 15px
+	
+	}
+}
+
+img{
+	width: 100%;
+  height: auto;
+  
+}
+/* @reference https://www.youtube.com/watch?v=3TN9J3pCn6k
+https://www.w3schools.com/css/css3_flexbox_responsive.asp 
+https://www.youtube.com/watch?v=wsTv9y931o8&t=530s*/
+
+/*
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/*this part is for the action page*/ 
+.apicture img {
+	height: 500px;
+	width: auto; /* allows the computer to calculate the width of the photo, usually keeps the pics aspect ratio*/
+}
+
+
+div.contactS {
+  text-align: center; /* puts the text in the center*/
+}
+  
+ /* this part is for the contact page*/
+ /* I was supposed to add code here to make the contact detail appear on the right of the screen so it would look balanced and aesthetic
+  I was at it for the last 2 hours plus but for some reason I've been unable to do it,
+	I tried flexbox and allign tags ect but nothing worked so I left it as is/*
+.
+}
+/*Chiboys CSS ENDS*/
+
+/*BINDERIYA'S CSS BEGINS*/
+.teacher{
+	height: 250px;
+	width: 400px;
+}
+.supply{
+	height: 250px;
+	width: 400px;
+}
+.language{
+	height: 250px;
+	width: 400px;
+}
+.nav {
+    background-color: cyan; /* Cyan background for the navigation bar */
+}
+
+.nav-link {
+    color: black; /* Blue text color for links */
+    font-weight: bold; /* Bold font for links */
+    padding: 8px 16px; /* Spacing for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+    color: white; /* Change link color to black on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Add spacing for rows and align content */
+.row {
+    margin-top: 20px;
+}
+.bgoals{
+	height: 800px;
+	width: 1250px;
+}
+.btitle{
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.content {
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.hidden {
+    display: none;
+}
+#poverty{
+	background-color: red;
+}
+#hunger{
+	background-color: #FFDB58;
+}
+#health{
+	background-color: #4cbb17;
+}
+#education{
+	background-color: #8b0000;
+}
+#gender{
+	background-color: #ff5349;
+}
+#water{
+	background-color: #0096FF;
+}
+#energy{
+	background-color: yellow;
+}
+#work{
+	background-color: #800020;
+}
+#industry{
+	background-color: orange;
+}
+#inequalities{
+	background-color: #ff00ff;
+}
+#cities{
+	background-color: #FFC000;
+}
+#production{
+	background-color: #A88905;
+}
+#climate{
+	background-color: #023020;
+	color: white;
+}
+#water{
+	background-color: blue;
+}
+#land{
+	background-color: #32CD32;
+}
+#peace{
+	background-color: #4169E1;
+}
+#patnership{
+	background-color: #000080;
+}
+body{
+	background-image: url("background.png");
+}
+/*BINDERIYA'S CSS ENDS*/
